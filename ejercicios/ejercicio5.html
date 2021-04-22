@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Clickea los botones para mostrar el resultado por consola</h1>
+    <input type="number" id="numero" />
+    <button onclick="mostrarNumero()">Mostrar número</button>
+    <button onclick="multiplicarNumero()">Multiplicar por 2</button>
+    <button><a href="../index.html">Volver a Home</a></button>
+  </body>
+
+  <script>
+    const numeroConsola = document.getElementById("numero");
+    function mostrarNumero() {
+      console.log(numeroConsola.value);
+    }
+    function multiplicarNumero() {
+      console.log(numeroConsola.value * 2);
+    }
+  </script>
+</html>
