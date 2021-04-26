@@ -1,5 +1,5 @@
-# Ejercicios
-Ejercicios  git ComunIT
+# Ejercicios HTML;CSS & JS
+Ejercicios  git ComunIT Curso
 
 + Ejercicio 1 - **botón hola mundo**
 + Ejercicio 2 - **Input text**
